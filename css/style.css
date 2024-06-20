@@ -12,14 +12,6 @@ body{
  font-family: Roboto;
 }
 .header-logo{
-    color: var(--accent-color);
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.78px;
-}
-.logo-img{
     color: var(--logo-color);
     font-family: Raleway;
     font-size: 26px;
@@ -27,16 +19,25 @@ body{
     line-height: normal;
     letter-spacing: 0.78px;
 }
-.nav-item{
+.logo-img{
+    color: var(--accent-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+.nav-link{
     color: var(--text-color);
     font-size: 14px;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
 }
-.headandfoot-item{
-    color: var(--added-colorx);
+.header-link{
+color: var(--added-color);
     font-size: 14px;
+    font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
@@ -150,4 +151,10 @@ body{
         line-height: 30px;
         /* 187.5% */
         letter-spacing: 0.48px;
+}
+.footer{
+    background-color: var(--footer-background);
+}
+.hero{
+    background-color: var(--footer-background);
 }
