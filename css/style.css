@@ -11,6 +11,10 @@
 body{
  font-family: Roboto;
 }
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
 .header-logo{
     color: var(--logo-color);
     font-family: Raleway;
@@ -42,13 +46,17 @@ color: var(--added-color);
     line-height: normal;
     letter-spacing: 0.28px;
 }
+.hero{
+    padding-top: 200px;
+    padding-bottom: 200px ;
+}
 .hero-title{
     color: var(--main-color);
         text-align: center;
         font-size: 44px;
         font-style: normal;
         font-weight: 900;
-        line-height: 1.36;
+        line-height: 1.36   ;
         /* 136.364% */
         letter-spacing: 2.64px;
         text-transform: uppercase;
@@ -62,6 +70,9 @@ color: var(--added-color);
         /* 187.5% */
         letter-spacing: 0.96px;
         background-color: var(--accent-color);
+}
+.advantages{
+    padding-top: 94px;
 }
 .advantages-camption{
     color: var(--text-color);
@@ -86,6 +97,10 @@ color: var(--added-color);
         font-weight: 700;
         line-height: normal;
         letter-spacing: 1.08px;
+}
+.team{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .team-title{
     color: var(--text-color);
@@ -119,6 +134,11 @@ color: var(--added-color);
         line-height: normal;
         letter-spacing: 0.78px;
 }
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 .footer-link{
     color: var(--main-color);
         font-size: 14px;
@@ -156,4 +176,11 @@ color: var(--added-color);
 }
 .hero{
     background-color: var(--footer-background);
+}
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px ;
+    margin-left: auto;
+    margin-right: auto;
 }
