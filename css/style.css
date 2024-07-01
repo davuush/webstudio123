@@ -98,6 +98,10 @@ color: var(--added-color);
         line-height: normal;
         letter-spacing: 1.08px;
 }
+.occupation{
+    padding-top: 94px ;
+    padding-bottom: 94px;
+}
 .team{
     padding-top: 94px;
     padding-bottom: 94px;
