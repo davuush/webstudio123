@@ -183,6 +183,7 @@ color: var(--added-color);
     padding-right: 15px ;
     margin-left: auto;
     margin-right: auto;
+    outline: 1px solid red;
 }
 .portfolio-section{
     padding-top: 94px;
