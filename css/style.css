@@ -244,6 +244,21 @@ margin-top: 50px;
         font-weight: 500;
         line-height: 1.62;       /* 162.5% */
         letter-spacing: 0.48px;
+        margin: 0px 4px;
+}
+.portfolio-buttonlist{
+    display: flex;
+    justify-content: center;
+}
+.portfolio-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.portfolio-photo{
+    width: 370px;
+    height: 294px;
 }
 .portfolio-camption{
     color: var(--text-color);
@@ -252,6 +267,7 @@ margin-top: 50px;
         line-height: 2.00;
         /* 200% */
         letter-spacing: 1.08px;
+        margin-top: 20px;
 }
 .portfolio-text{
     color: var(--added-color);
