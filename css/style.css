@@ -17,12 +17,12 @@ body{
 .header{
     padding-top: 24px;
     padding-bottom: 25px;   
-    display: flex;
 }
-.headercontainer{
+.head{
     display: flex;
     align-items: center;
 }
+
 .header-logo{
     color: var(--logo-color);
     font-family: Raleway;
@@ -38,14 +38,14 @@ body{
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
-
 }
-.nav-list{
+.header-nav{
     margin-left: 93px;
-    margin-right: 344px;
-    display: flex;
-    gap: 50px;
+        margin-right: 344px;
+        display: flex;
+        gap: 50px;
 }
+
 .nav-link:hover{
 color: var(--accent-color);
     font-size: 14px;
@@ -165,17 +165,17 @@ color: var(--added-color);
 .occupationlist{
     display: flex;
     justify-content: space-between;
-
+margin-top: 50px;
 }
 .occupation-photo{
 height: 294px;
 width: 370px;
-margin-top: 50px;
+
 }
 .team{
+    background-color: var(--team-background);
     padding-top: 94px;
     padding-bottom: 94px;
-    color: var(--team-background);
 }
 .team-title{
     color: var(--text-color);
@@ -201,9 +201,9 @@ margin-top: 50px;
         font-weight: 500;
         line-height: normal;
         letter-spacing: 0.48px;
-        margin-top: 30px;
         margin-bottom: 10px;
-}
+        padding-top: 30px;
+}   
 .team-text{
     color: var(--added-color);
         text-align: center;
@@ -211,6 +211,13 @@ margin-top: 50px;
         font-weight: 400;
         line-height: normal;
         letter-spacing: 0.48px;
+        padding-bottom: 30px;
+}
+.team-item{
+    border-radius: 0 0 4px 4px;
+}
+.teamdiv{
+    background-color: var(--main-color);
 }
 .header-logo2{
     color: var(--main-color);
