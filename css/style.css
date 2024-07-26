@@ -21,6 +21,7 @@ body{
 }
 .headercontainer{
     display: flex;
+    align-items: center;
 }
 .header-logo{
     color: var(--logo-color);
@@ -42,13 +43,11 @@ body{
 .nav-list{
     margin-left: 93px;
     margin-right: 344px;
-    width: 282px;
     display: flex;
-    justify-content: space-between;
-    margin-top: 8px;
+    gap: 50px;
 }
 .nav-item:hover{
-    color: var(--accent-color);
+    color: red;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -75,21 +74,20 @@ color: var(--added-color);
     width: 310px ;
     display: flex;
     justify-content: space-between;
-    margin-top: 8px;
 }
 
 .hero{
-    padding-top: 200px;
-    padding-bottom: 200px ;
+        padding-top: 200px;
+        padding-bottom: 200px ;
+        text-align: center;
 }
-.herocontainer{
-    width: 696px;
-    height: 120px;
-    margin: 0 auto;
-}
+
 .hero-title{
     color: var(--main-color);
         text-align: center;
+            width: 696px;
+            margin-left: auto;
+            margin-right: auto;
         font-size: 44px;
         font-style: normal;
         font-weight: 900;
@@ -100,8 +98,6 @@ color: var(--added-color);
 }
 .hero-btn{
     color: var(--main-color);
-    width: 216px;
-    height: 50px;
     text-align: center;
     font-size: 16px;
     font-weight: 700;
@@ -110,7 +106,8 @@ color: var(--added-color);
         background-color: var(--accent-color);
         border-radius: 5px;
         margin-top: 30px;
-        margin-left: 240px;
+        padding: 10px 32px;
+
 
 }
 .advantages{
@@ -157,9 +154,10 @@ color: var(--added-color);
     display: flex;
     margin: 0 auto;
 }
-.occupationcontainer{
+.occupationlist{
     display: flex;
     justify-content: space-between;
+
 }
 .occupation-photo{
 height: 294px;
@@ -268,6 +266,7 @@ margin-top: 50px;
         /* 200% */
         letter-spacing: 1.08px;
         margin-top: 20px;
+        margin-left: 24px;
 }
 .portfolio-text{
     color: var(--added-color);
