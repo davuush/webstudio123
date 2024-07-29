@@ -13,10 +13,18 @@ body{
  display: flex;
  flex-direction: column;
 }
-
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    /* outline: 1px solid red; */
+}
 .header{
     padding-top: 24px;
     padding-bottom: 25px;   
+    border-bottom: 1px solid #ECECEC;
 }
 .head{
     display: flex;
@@ -45,7 +53,10 @@ body{
         display: flex;
         gap: 50px;
 }
-
+.nav-list{
+    display: flex;
+    gap: 50px;
+}
 .nav-link:hover{
 color: var(--accent-color);
     font-size: 14px;
@@ -68,7 +79,9 @@ color: var(--accent-color);
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
-
+}
+.curent{
+    color: var(--accent-color);
 }
 .header-link{
 color: var(--added-color);
@@ -115,7 +128,7 @@ color: var(--added-color);
         border-radius: 5px;
         margin-top: 30px;
         padding: 10px 32px;
-
+        border: none;
 
 }
 .advantages{
@@ -156,7 +169,6 @@ color: var(--added-color);
         margin: 0 auto;
 }
 .occupation{
-    width: 1600px;
     padding-top: 94px ;
     padding-bottom: 94px;
     display: flex;
@@ -164,11 +176,11 @@ color: var(--added-color);
 }
 .occupationlist{
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
 margin-top: 50px;
 }
 .occupation-photo{
-height: 294px;
+
 width: 370px;
 
 }
@@ -231,7 +243,9 @@ width: 370px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
-
+.footeraddres{
+    font-style: normal;
+}
 .footer-link{
     color: var(--main-color);
         font-size: 14px;
@@ -257,38 +271,50 @@ width: 370px;
         font-weight: 500;
         line-height: 1.62;       /* 162.5% */
         letter-spacing: 0.48px;
-        margin: 0px 4px;
+        padding: 6px 22px;
+        border: none;
+        border-radius: 4px;
+}
+.portfolio-button:hover{
+    background-color: var(--accent-color);
+    color: var(--main-color);
 }
 .portfolio-buttonlist{
     display: flex;
     justify-content: center;
+    gap: 8px;
 }
 .portfolio-list{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 50px;
+    gap: 30px;
 }
 .portfolio-photo{
-    width: 370px;
-    height: 294px;
+    width: 100%;
+}
+.portfoliocard{
+    padding: 20px 24px;
 }
 .portfolio-camption{
     color: var(--text-color);
         font-size: 18px;
         font-weight: 700;
         line-height: 2.00;
-        /* 200% */
         letter-spacing: 1.08px;
-        margin-top: 20px;
-        margin-left: 24px;
+
+}
+.portfolio-item{
+    flex-basis: calc((100% - 60px) / 3);
+    border: 1px solid #EEE;
+    background: var(--main-color);
 }
 .portfolio-text{
     color: var(--added-color);
         font-size: 16px;
         font-weight: 400;
         line-height: 1.87;
-        /* 187.5% */
         letter-spacing: 0.48px;
 }
 .footer{
@@ -297,13 +323,7 @@ width: 370px;
 .hero{
     background-color: var(--footer-background);
 }
-.container{
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px ;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .portfolio-section{
     padding-top: 94px;
     padding-bottom: 94px;
