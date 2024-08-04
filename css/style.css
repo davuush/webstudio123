@@ -134,14 +134,32 @@ color: var(--added-color);
 .advantages{
     padding-top: 94px;
 }
-.advantages-item{
+.advantages-item::before{
+    content: '';
     width: 270px;
-    height: 98px;
+    height: 120px;
+    border-radius: 4px;
+    background: #F5F4FA;
+    display: block;
+    margin-bottom: 30px;
+    background-image: url(../img/antena.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.advantages-item:nth-child(2)::before{
+    background-image: url(../img/clock.png);
+}
+.advantages-item:nth-child(3)::before {
+    background-image: url(../img/diagram.png);
+}
+.advantages-item:nth-child(4)::before {
+    background-image: url(../img/astronaut.png);
 }
 .advantages-list{
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
 }
+
 .advantages-camption{
     color: var(--text-color);
         font-size: 14px;
@@ -179,9 +197,7 @@ color: var(--added-color);
 margin-top: 50px;
 }
 .occupation-photo{
-
 width: 370px;
-
 }
 .team{
     background-color: var(--team-background);
