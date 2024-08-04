@@ -102,8 +102,7 @@ color: var(--added-color);
         padding-bottom: 200px ;
         text-align: center;
         /* background-color: var(--footer-background); */
-        background-image: linear-gradient( #2F303A, #C4C4C4),;
-        background-image: url(../img/peoplesneartable.jpg);
+        background-image: linear-gradient(#2F303A,rgba(47, 48, 58, 0.40)) ,url(../img/peoplesneartable.jpg) ;
         
 }
 
@@ -252,6 +251,7 @@ width: 370px;
     background-color: var(--main-color);
     padding-top: 30px;
     padding-bottom: 30px;
+    border-radius: 0 0 4px 4px;
 }
 .header-logo2{
     color: var(--main-color);
