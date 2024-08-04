@@ -101,6 +101,10 @@ color: var(--added-color);
         padding-top: 200px;
         padding-bottom: 200px ;
         text-align: center;
+        /* background-color: var(--footer-background); */
+        background-image: linear-gradient( #2F303A, #C4C4C4),;
+        background-image: url(../img/peoplesneartable.jpg);
+        
 }
 
 .hero-title{
@@ -129,7 +133,7 @@ color: var(--added-color);
         margin-top: 30px;
         padding: 10px 32px;
         border: none;
-
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .advantages{
     padding-top: 94px;
@@ -242,6 +246,7 @@ width: 370px;
 }
 .team-item{
     border-radius: 0 0 4px 4px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 }
 .teamdiv{
     background-color: var(--main-color);
@@ -295,6 +300,7 @@ width: 370px;
 .portfolio-button:hover{
     background-color: var(--accent-color);
     color: var(--main-color);
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 .portfolio-buttonlist{
     display: flex;
@@ -326,6 +332,9 @@ width: 370px;
     border: 1px solid #EEE;
     background: var(--main-color);
 }
+.portfolio-item:hover{
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+}
 .portfolio-text{
     color: var(--added-color);
         font-size: 16px;
@@ -335,9 +344,6 @@ width: 370px;
         margin-top: 4px;
 }
 .footer{
-    background-color: var(--footer-background);
-}
-.hero{
     background-color: var(--footer-background);
 }
 
