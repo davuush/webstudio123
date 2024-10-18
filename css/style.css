@@ -317,9 +317,16 @@ width: 370px;
 .footer{
     padding-top: 60px;
     padding-bottom: 60px;
+    display: flex;
 }
+.header-logo2{
+    width: 232px;
+}
+
 .footeraddres{
     font-style: normal;
+    width: 232px;
+
 }
 .footer-link{
     color: var(--main-color);
@@ -338,7 +345,38 @@ width: 370px;
 .footer-item{
     margin-top: 9px;
 }
+.joinlist{
+    /* margin-left: 250px; */
+    width: 200px;
+}
+.jointitle{
+    color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+}
+.join-svglist {
+    display: flex;
+    gap: 10px;
+    margin-left: 44px;
+    margin-top: 28px;
+}
+.join-svgitem:hover {
+    border-radius: 30px;
+    background-color: #2196F3;
 
+    .join-svgphoto {
+        fill: #fff;
+    }
+}
+.join-svgphoto {
+    width: 44px;
+    height: 44px;
+    padding: 12px 12px;
+    fill: #fff;
+}
 .portfolio-button{
     color: var(--text-color);
         text-align: center;
