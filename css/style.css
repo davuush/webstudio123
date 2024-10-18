@@ -252,6 +252,25 @@ width: 370px;
     padding-bottom: 30px;
     border-radius: 0 0 4px 4px;
 }
+.team-svglist{
+    display: flex;
+    gap: 10px;
+    margin-left: 44px;
+    margin-top: 28px;
+}
+.team-svgitem:hover{
+    border-radius: 30px;
+    background-color:#2196F3;
+        .team-svgphoto{
+            fill: #fff;
+        }
+}
+.team-svgphoto{
+    width: 44px;
+    height: 44px;
+    padding: 12px 12px;
+    fill: #AFB1B8;
+}
 .clients-title{
     color: var(--text-color);
         text-align: center;
