@@ -65,7 +65,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="hero-btn">Замовити послугу</button>
+          <button type="button" class="hero-btn" data-modal-open>Замовити послугу</button>
         </div>
       </section>
       <!-- наші переваги -->
@@ -413,8 +413,61 @@
               </a>
             </li>
           </ul>
-        </div>
+          </div>
+          <div class="footer-form">
+            <div class="footer-formclass">
+            <h3 class="form-title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h3>
+            <form class="footer-forminfo">
+              <label class="form-label" for="mail"></label>
+              <!-- <textarea class="footer-email" id="mail" placeholder="E-mail"></textarea> -->
+              <input class="footer-input" id="mail" type="email" placeholder="E-mail">
+                          </form>
+                          </div>
+                          <div class="footer-button">
+                  <button class="footer-formbutton" type="button">
+                  <h3 class="footer-buttontitle">Підписатися</h3>
+                <svg class="footer-formsvg">
+                  <use href="./img/symbol-defs2.svg#icon-icon-send"></use>
+                </svg>
+              </button>
+                          </div>
+
+
+          </div>
+
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <form class="modal-form">
+          <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+          <label class="modal-label" for="name">Ім'я</label>
+          <input class="modal-input" id="name" type="text" required>
+
+          <label class="modal-label" for="phone">Телефон</label>
+          <input class="modal-input" id="phone" type="tel" required>
+
+          <label class="modal-label" for="mail">Пошта</label>
+          <input class="modal-input" id="mail" type="email" required>
+
+          <label class="modal-label" for="comment">Коментар</label>
+          <textarea class="modal-comment" name="" id="comment" placeholder="Введіть текст"></textarea>
+          <label class="modal-check">
+                  <input class="modal-checkbox" type="checkbox">
+                  <span class="modal-span">Погоджуюся з розсилкою та приймаю  </span>
+                  <a href="" class="modal-link">Умови договору</a>
+          </label>
+          <button type="submit" class="modal-btn">Відправити</button>
+                        <button type="button" class="modal-close" data-modal-close>
+            <svg class="modal-svg">
+              <use href="./img/symbol-defs2.svg#icon-cross"></use>
+            </svg>
+            </button>
+        </form>
+
+      </div>
+
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
