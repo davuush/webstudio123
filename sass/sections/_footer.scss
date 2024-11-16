@@ -1,4 +1,11 @@
-.header-logo2 {
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    background-color:#2F303A;
+
+}
+.footer-logo2 {
     color: var(--main-color);
     font-family: Raleway;
     font-size: 26px;
@@ -7,11 +14,7 @@
     letter-spacing: 0.78px;
 }
 
-.footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    display: flex;
-}
+
 
 .footer-container {
     display: flex;
