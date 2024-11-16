@@ -1,0 +1,145 @@
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    color: var(--logo-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.logo-img {
+    color: var(--accent-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.header-nav {
+    margin-left: 93px;
+    margin-right: auto;
+    display: flex;
+    gap: 50px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-link:hover {
+    color: var(--accent-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+
+
+}
+
+.nav-link:focus,
+.header-link:focus {
+    color: var(--accent-color);
+
+
+
+
+}
+
+.header-item {
+    display: flex;
+    align-items: center;
+}
+
+.header-link:hover {
+    color: var(--accent-color);
+
+    .headersvg {
+        fill: #2196F3;
+    }
+}
+
+.header-link:focus {
+    color: var(--accent-color);
+
+    .headersvg {
+        fill: #2196F3;
+    }
+}
+
+.header-link:hover {
+    color: var(--accent-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.nav-link {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.curent {
+    color: var(--accent-color);
+}
+
+.curent::after {
+    content: "";
+    display: block;
+    border-bottom: 4px solid #2196F3;
+    margin-top: 0;
+    border-radius: 2px;
+    /* padding-top: 40px; */
+}
+
+.header-link {
+    color: var(--added-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-list {
+    display: flex;
+    gap: 50px;
+}
+
+.headersvg {
+    fill: #757575;
+}
+
+/* .header-link:focus{
+    color: var(--accent-color);
+} */
+.header-item:first-child .headersvg {
+    width: 16px;
+    height: 12px;
+}
+
+.headersvg:last-child {
+    width: 10px;
+    height: 16px;
+}
